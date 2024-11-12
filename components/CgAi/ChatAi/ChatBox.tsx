@@ -249,7 +249,7 @@ else{
 
 
 
-const openAiCall = async (customMessage) => {
+const openAiCall = async (customMessage: string | undefined) => {
   setResponding(true);
   const chatMessage = customMessage || message;
 
