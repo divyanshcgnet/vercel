@@ -167,9 +167,9 @@ export default function ChatBox({
 
 
 const processQuery = async (
-  userQuery,
+  userQuery: string,
   onUpdate = () => {},
-  file,
+  file: FILE || null,
   chatId
 ) => {
   if (!userQuery) {
