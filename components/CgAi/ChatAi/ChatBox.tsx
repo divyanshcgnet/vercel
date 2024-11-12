@@ -166,11 +166,16 @@ export default function ChatBox({
 // };
 
 
+// const processQuery = async (
+//   userQuery
+//   onUpdate = () => {},
+//   file,
+//   chatId
 const processQuery = async (
   userQuery: string,
-  onUpdate = () => {},
-  file: FILE || null,
-  chatId
+  onUpdate: () => void = () => {},
+  file: File | null ,
+  chatId: string
 ) => {
   if (!userQuery) {
     throw new Error('Missing query parameter');
