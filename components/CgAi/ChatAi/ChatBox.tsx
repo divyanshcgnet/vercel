@@ -369,7 +369,7 @@ const openAiCall = async (customMessage: string | undefined) => {
     }
     if (!message) return
 
-    await openAiCall()
+    await openAiCall(message)
   }
 
   const handleRegenerate = async () => {
