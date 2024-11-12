@@ -227,10 +227,12 @@ else{
       };
 
       // Handle errors if any occur during the connection
-      socket.onerror = (error) => {
+      socket.onerror = (error: Event) => {
         console.error(`WebSocket error for chatId ${chatId}:`, error);
-        reject(new Error(`WebSocket error: ${error.message || 'Unknown error'}`));
+        const e = error as ErrorEvent; // Type cast the error to ErrorEvent
+        reject(new Error(`WebSocket error: ${e.message || 'Unknown error'}`)); // Access the message property
       };
+      
 
       // Close WebSocket connection once complete
       socket.onclose = () => {
