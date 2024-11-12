@@ -328,7 +328,7 @@ const openAiCall = async (customMessage: string | undefined) => {
           return prevMessages;
         });
       },
-      fileInfo || undefined,
+      fileInfo || null,
       params.chatId
     );
     
