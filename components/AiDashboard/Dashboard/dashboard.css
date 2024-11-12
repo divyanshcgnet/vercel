@@ -1,0 +1,239 @@
+    @media (max-width: 640px) {
+        .wrapper {
+            display: flex;
+            padding-bottom: 10px;
+            gap: 10px;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
+        .cards {
+            height: 82.56px !important;
+            padding: 7px !important;
+
+            border-radius: 7.64px;
+            backdrop-filter: blur(6.367097854614258px)
+        }
+
+        .step {
+
+            font-family: DM Sans;
+            font-size: 10px !important;
+            font-weight: 400 !important;
+            line-height: 13.02px !important;
+            text-align: left;
+
+        }
+
+        .mobileText {
+            font-family: DM Sans;
+            font-size: 12px !important;
+            font-weight: 500 !important;
+            line-height: 17.02px !important;
+            text-align: left;
+            width: 100% !important;
+        }
+
+        .mobileTextContainer {
+            font-family: DM Sans;
+            font-size: 12px !important;
+            font-weight: 500 !important;
+            line-height: 17.02px !important;
+            text-align: left;
+            width: 100% !important;
+            height: 34px !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: -10px;
+        }
+
+        .mobileTextQuickCard {
+            font-family: DM Sans;
+            font-size: 12px !important;
+            font-weight: 500 !important;
+            line-height: 17.02px !important;
+            text-align: left;
+            width: 100% !important;
+        }
+
+        .gettingStartedText {
+            display: flex;
+            align-items: center;
+            font-family: DM Sans;
+            font-size: 12px !important;
+            font-weight: 500 !important;
+            line-height: 17.02px !important;
+            text-align: left;
+            width: 100% !important;
+            height: 34px !important;
+        }
+
+        .gridWrapper {
+            display: flex !important;
+            justify-content: space-evenly;
+            flex-wrap: wrap !important;
+            gap: 1rem !important;
+            width: 100% !important;
+            overflow: hidden !important;
+        }
+
+        .mobileTextButton {
+            padding-left: 6px !important;
+            padding-right: 6px !important;
+        }
+
+        .exploreCard {
+            width: 40vw !important;
+            min-height: 55vw;
+            padding: 6%;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly !important;
+            gap: 0.5rem;
+
+            font-size: 3vw;
+            line-height: 1.2;
+            overflow-wrap: break-word;
+        }
+
+        .exploreCard .textContent {
+            font-size: 3vw;
+            line-height: 1.2;
+            overflow-wrap: break-word;
+        }
+
+        .startedButton {
+            width: 90.6px;
+            height: 26.03px;
+            padding: 3.86px 7.71px 3.86px 7.71px;
+            gap: 6.77px;
+            border-radius: 5.42px;
+            background-color: linear-gradient(90.82deg, #743FE0 0%, #5E5AFF 100%);
+            z-index: 999 !important;
+        }
+
+        .helpSectionWrapper {
+            max-height: 129.5px !important;
+            padding: 20.37px !important;
+            gap: 25.47px;
+            border-radius: 7.64px;
+        }
+
+        .helpSection {
+            font-family: DM Sans;
+            font-size: 14px !important;
+            font-weight: 700;
+            line-height: 15.68px;
+            text-align: left;
+
+        }
+
+        .helpSectionButton {
+
+            height: 31.28px;
+            padding: 7.64px !important;
+            gap: 6.37px;
+            border-radius: 5.09px;
+        }
+
+        .trendCard {
+            min-width: 225px !important;
+            height: 115.01px !important;
+            padding: 16px;
+            border-radius: 12px;
+            border: 1px;
+
+        }
+
+        .quickActionWrapper {
+
+            display: flex;
+        }
+
+        .quickActionCard {
+            height: 80px !important;
+            max-width: 191.6px !important;
+            border-radius: 8.27px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-top: 50px;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+
+    @media (min-width: 641px) and (max-width: 1180px) {
+
+        .quickActionWrapper,
+        .wrapper {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .exploreCard {
+            width: 44vw !important;
+            height: 38vw;
+            padding: 6%;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly !important;
+            gap: 0.5rem;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.85px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            text-overflow: ellipsis;
+        }
+
+        .exploreCard .textContent {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.85px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            text-overflow: ellipsis;
+            white-space: normal;
+        }
+
+        .quickActionCard  {
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 40px;
+        }
+
+    }
+
+    @media (min-width: 1024px) and (max-width: 1366px) {
+        .exploreCard {
+            width: 43vw !important;
+            height: 30vw !important;
+        }
+    }
+
+    @media (min-width: 1366px) {
+        .mobileTextContainer {
+            margin-top: 4rem;
+        }
+    }
+.quickActionCard{
+    text-align: center;
+    padding-top: 45px;
+}
+    
