@@ -48,7 +48,7 @@ export default function ChatBox({
 }) {
   const [started, setStarted] = useState(false)
   const [messages, setMessages] = useState<
-    { content: string; role: MessageTypeEnum; fileUrl?: string }[]
+    { id?: string; content: string; role: MessageTypeEnum; fileUrl?: string }[]
   >([])
   const [message, setMessage] = useState('')
   const [lastUserMessage, setLastUserMessage] = useState('')
